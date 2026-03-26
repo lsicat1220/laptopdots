@@ -13,5 +13,6 @@ return {
 			cmd = {'qmlls6', "-E"}
 		})
 		vim.lsp.enable('html')
+		vim.lsp.enable('tinymist')
 	end
 }
