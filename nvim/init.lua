@@ -1,5 +1,6 @@
 vim.o.number = true
 vim.o.cursorline = true
+vim.o.autoread = true
 require("config.lazy")
 require("keymaps")
 vim.cmd("colorscheme catppuccin-frappe")
