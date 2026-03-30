@@ -1,9 +1,10 @@
 vim.o.number = true
 vim.o.cursorline = true
 vim.o.autoread = true
-require("config.lazy")
+vim.g.mapleader = " "
 require("keymaps")
-vim.cmd("colorscheme catppuccin-frappe")
+--require("lazy")
+--vim.cmd("colorscheme catppuccin-frappe")
 vim.o.rnu = true
 vim.o.ts = 2
 vim.o.hlsearch = false
