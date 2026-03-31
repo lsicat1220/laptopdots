@@ -1,4 +1,7 @@
-vim.pack.add({"https://github.com/sphamba/smear-cursor.nvim"})
+vim.pack.add({
+	"https://github.com/sphamba/smear-cursor.nvim",
+	"https://github.com/nvim-tree/nvim-web-devicons"
+})
 
 require("smear_cursor").setup({
 		stiffness = 0.8,                      -- 0.6      [0, 1]

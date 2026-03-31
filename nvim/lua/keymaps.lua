@@ -11,6 +11,7 @@ vim.keymap.set(
 --fzf-lua
 vim.keymap.set('n', '<leader>ff', function () require('fzf-lua').files() end, {desc = 'Fzf files'})
 vim.keymap.set('n', '<leader>fd', function () require('fzf-lua').lsp_definitions() end, {desc = 'Fzf function definitions'})
+vim.keymap.set('n', '<leader>fh', function () require('fzf-lua').lsp_declarations() end, {desc = 'Fzf function declarations'})
 vim.keymap.set('n', '<leader>fg', function () require('fzf-lua').grep() end, {desc = 'Fzf grep'})
 vim.keymap.set('n', '<leader>fp', function () require('fzf-lua').grep_project() end, {desc = 'Fzf grep project'})
 vim.keymap.set('n', '<leader>fs', function () require('fzf-lua').lsp_workspace_symbols() end, {desc = 'Fzf workspace symbols'})
