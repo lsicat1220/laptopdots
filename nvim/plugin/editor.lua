@@ -19,6 +19,9 @@ require("blink.cmp").setup({
 		ghost_text = {enabled = true},
 	},
 
+	signature = {
+		enabled = true
+	},
   sources = {
     default = { 'lsp', 'path', 'snippets', 'buffer' },
   },

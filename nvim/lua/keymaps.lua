@@ -35,3 +35,4 @@ vim.keymap.set('n', '<leader>l', function () require('dap').step_out() end, {des
 
 vim.keymap.set('n', '<leader>m', "<CMD>Markview toggle<CR>", {desc = "Toggle markview"})
 vim.keymap.set('n', '<leader>ms', "<CMD>Markview splitToggle<CR>", {desc = "Toggle markview split"})
+

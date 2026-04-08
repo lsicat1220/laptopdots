@@ -68,3 +68,4 @@ unset __conda_setup
 
 # Created by `pipx` on 2025-10-01 17:22:42
 export PATH="$PATH:/home/lorenzo/.local/bin"
+source <(fzf --zsh)

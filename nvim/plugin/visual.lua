@@ -1,7 +1,11 @@
 vim.pack.add({
 	"https://github.com/sphamba/smear-cursor.nvim",
-	"https://github.com/nvim-tree/nvim-web-devicons"
+	"https://github.com/nvim-tree/nvim-web-devicons",
+	"https://github.com/nvimdev/indentmini.nvim",
+	"https://github.com/OXY2DEV/markview.nvim"
 })
+
+require("indentmini").setup()
 
 require("smear_cursor").setup({
 		stiffness = 0.8,                      -- 0.6      [0, 1]

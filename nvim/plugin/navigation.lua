@@ -7,3 +7,6 @@ require("fzf-lua").setup({
 	fzf_colors = true
 })
 
+require("arrow").setup({
+	leader_key = "\\" 
+})
